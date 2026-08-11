@@ -14,3 +14,14 @@ How to use it :
 
 
 ---
+
+# You can Build it with :
+
+```bash
+
+git clone https://github.com/cash-to-burn/wiiu_pak_extractor.git
+cd wiiu_pak_extractor
+cmake -S . -B build
+cmake --build build/
+
+```
