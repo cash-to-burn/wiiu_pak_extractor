@@ -35,7 +35,7 @@ void extract_wem(const char *infile, const std::filesystem::path &file_name)
     libvgmstream_t *lib = libvgmstream_init();
     if (!lib) return;
 
-    // make it ptr
+
     libvgmstream_config_t config = {};
     config.ignore_loop = true;
     config.ignore_fade = true;
